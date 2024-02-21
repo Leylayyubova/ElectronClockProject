@@ -1,0 +1,43 @@
+body {
+  background: url(https://www.canberratimes.com.au/images/transform/v1/crop/frm/RXMuw2JbrrS7ELSxSY9rkR/35e6ccf5-1d91-4c02-b21e-7d7fa47fde2c.jpg/r261_324_4939_3248_w5200_h3250_fmax.jpg);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 90px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: #fcfdff;
+  border: 20px black;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+}
+.container .quotes {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 10%;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.container .quotes h2 {
+  font-size: 45px;
+  margin-top: 10px;
+  font-weight: 500;
+}/*# sourceMappingURL=style.css.map */
